@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="descreption" content="E-Commerce Website">
+    <title>Checkout Page | Shopping Cart</title>
+    <link rel="icon" href="image/images.ico" type="image/x-icon">
+    <script src="js/all.js" defer></script>
+    <link rel="stylesheet" href="css/mart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+        <nav class="navbar navbar-expand-lg py-3 ">
+        <a class="navbar-brand pl-5 pl-small-0" href="index.html"> <img src="image/logo.webp" class="img img-fluid"alt="logo"> </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span
+        class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="product_detail.html">Product</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Category_page.html">Category</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+        role="button" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </li> -->
+        </ul>
+        <div class="search mr-3">
+        <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
+        </div>
+        <div class="cart-up">
+        <a href="cart.html"><i class="fas fa-shopping-cart fa-2x"></i>
+        <span class="badge badge-pill badge-primary">2</span>
+        </a>
+    </div>
+    </div>
+    </nav>
+    </div>
+    </section>
+<section class="Checkout py-5 my-5" id="Checkout">
+    <div class="container">
+        <div class="section_title text-center mb-5">
+            <h1 class="text-capitalize">Checkout</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card bg_checkout_1 pb-5">
+                    <div class="card-body">
+                        <h5 class="mb-5">Billing details</h5>
+                        <div class="row"  id="Bill">
+                            <div class="col-lg-6">
+                                <div class="form-group mb-0 mb-lg-4">
+                                    <label for="firstName">First name</label>
+                                    <input type="text" id="firstName" class="form-control mb-0 mb-lg-2">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group md-outline">
+                                    <label for="lastName">Last name</label>
+                                    <input type="text" id="lastName" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form18">Phone</label>
+                            <input type="number" id="form18" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="form19">Email address</label>
+                            <input type="email" id="form19" class="form-control">
+                        </div>
+                        <div class="d-flex flex-wrap">
+                            <div class="w-100">
+                                <label>Country</label>
+                                <select class="custom-select form-group" id="Country" title="select">
+                                    <option value="" selected>Choose your option</option>
+                                    <option value="1">Argentina</option>
+                                    <option value="2">Australia</option>
+                                    <option value="3">Austria</option>
+                                    <option value="4">Bahrain</option>
+                                    <option value="5">Bangladesh</option>
+                                    <option value="6">Barbados</option>
+                                    <option value="7">Belarus</option>
+                                    <option value="8">Belgium</option>
+                                    <option value="9">Bermuda</option>
+                                    <option value="10">Bhutan</option>
+                                    <option value="11">Botswana</option>
+                                    <option value="12">Brazil</option>
+                                    <option value="13">Brunei Darussalam</option>
+                                    <option value="14">Bulgaria</option>
+                                    <option value="15">Cambodia</option>
+                                    <option value="16">Canada</option>
+                                    <option value="17">Cape Verde</option>
+                                    <option value="18">Cayman Islands</option>
+                                    <option value="19">China</option>
+                                    <option value="20">Cuba</option>
+                                    <option value="21">Cyprus</option>
+                                    <option value="22">Denmark</option>
+                                    <option value="23">Egypt</option>
+                                    <option value="24">El Salvador</option>
+                                    <option value="25">Eritrea</option>
+                                    <option value="26">Estonia</option>
+                                    <option value="27">Ethiopia</option>
+                                    <option value="28">Fiji</option>
+                                    <option value="29">Finland</option>
+                                    <option value="30">France</option>
+                                    <option value="31">Georgia</option>
+                                    <option value="32">Germany</option>
+                                    <option value="33">Ghana</option>
+                                    <option value="34">Greece</option>
+                                    <option value="35">Guyana</option>
+                                    <option value="36">HongKong</option>
+                                    <option value="37">Hungary</option>
+                                    <option value="38">Iceland</option>
+                                    <option value="40">India</option>
+                                    <option value="39">Indonesia</option>
+                                    <option value="40">Iran</option>
+                                    <option value="41">Iraq</option>
+                                    <option value="42">Ireland</option>
+                                    <option value="43">Israel</option>
+                                    <option value="44">Italy</option>
+                                    <option value="45">Japan</option>
+                                    <option value="46">Jordan</option>
+                                    <option value="47">Kenya</option>
+                                    <option value="48">Korea</option>
+                                    <option value="50">Kuwait</option>
+                                    <option value="51">Latvia</option>
+                                    <option value="52">Luxembourg</option>
+                                    <option value="53">Macao</option>
+                                    <option value="54">Malawi</option>
+                                    <option value="55">Malaysia</option>
+                                    <option value="56">Maldives</option>
+                                    <option value="57">Mauritius</option>
+                                    <option value="58">Mexico</option>
+                                    <option value="59">Mongolia</option>
+                                    <option value="60">Morocco</option>
+                                    <option value="61">Namibia</option>
+                                    <option value="62">Nauru</option>
+                                    <option value="63">Nepal</option>
+                                    <option value="64">Netherlands</option>
+                                    <option value="65">New Zealand</option>
+                                    <option value="66">Niger</option>
+                                    <option value="67">Nigeria</option>
+                                    <option value="68">Norway</option>
+                                    <option value="69">Oman</option>
+                                    <option value="70">Pakistan</option>
+                                    <option value="71">Panama</option>
+                                    <option value="72">Papua New Guinea</option>
+                                    <option value="73">Philippines</option>
+                                    <option value="74">Poland</option>
+                                    <option value="75">Portugal</option>
+                                    <option value="76">Qatar</option>
+                                    <option value="77">Romania</option>
+                                    <option value="78">Russian Federation</option>
+                                    <option value="79">Rwanda</option>
+                                    <option value="80">Samoa</option>
+                                    <option value="81">Saudi Arabia</option>
+                                    <option value="82">Senegal</option>
+                                    <option value="83">Singapore</option>
+                                    <option value="84">South Africa</option>
+                                    <option value="85">Spain</option>
+                                    <option value="86">Sri Lanka</option>
+                                    <option value="87">Sudan</option>
+                                    <option value="88">Sweden</option>
+                                    <option value="89">Switzerland</option>
+                                    <option value="90">Taiwan</option>
+                                    <option value="91">Tanzania</option>
+                                    <option value="92">Thailand</option>
+                                    <option value="93">Tunisia</option>
+                                    <option value="94">Turkey</option>
+                                    <option value="95">Uganda</option>
+                                    <option value="96">Ukraine</option>
+                                    <option value="97">United Arab Emirates</option>
+                                    <option value="98">United Kingdom</option>
+                                    <option value="99">United States of America</option>
+                                    <option value="100">Uruguay</option>
+                                    <option value="101">Viet Nam</option>
+                                    <option value="102">Yemen</option>
+                                    <option value="103">Zair</option>
+                                    <option value="104">Zambia</option>
+                                    <option value="105">Zimbabwe</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form17">Town / City</label>
+                            <input type="text" id="form17" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="form16">Postcode / ZIP</label>
+                            <input type="text" id="form16" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="form14">Address Line 1</label>
+                            <input type="text" id="form14" placeholder="House number and street name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="form15">Address Line 2</label>
+                            <input type="text" id="form15" placeholder="Apartment, suite, unit etc. (optional)" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="couponCode">Coupon Code</label>
+                                <input type="text" id="couponCode" class="form-control">
+                                <button class="btn btn-primary mt-3" type="button" id="applyCouponButton">Apply Coupon</button>
+                        </div>                        
+                        <div class="form-group">
+                            <label for="paymentMode">Payment Mode</label>
+                            <select id="paymentMode" class="form-control">
+                                <option value="credit_card">Credit Card</option>
+                                <option value="debit_card">Debit Card</option>
+                                <option value="paypal">PayPal</option>
+                                <option value="bank_transfer">Bank Transfer</option>
+                            </select>
+                        </div>
+                        <div class="text-center">
+                            <a href="order_confirmation.html" class="btn btn-primary">
+                                <i class="fa fa-check mr-2"></i>Purchase
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card bg_checkout_1 h-25 rounded">
+                    <div class="mb-3">
+                        <div class="pt-4">
+                            <h5 class="mb-3">Order summary</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-2">
+                                    <span>Product name 1</span>
+                                    <span>x2</span>
+                                    <span>₹25.98</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-2">
+                                    <span>Product name 2</span>
+                                    <span>x2</span>
+                                    <span>₹25.98</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center border-top px-0 mb-3">
+                                    <div>
+                                        <strong>Total amount</strong>
+                                        <strong>
+                                            <p class="mb-0">(including VAT)</p>
+                                        </strong>
+                                    </div>
+                                    <span><strong>₹53.98</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <footer >
+            <div class="border-top"> 
+              <p class="text-center mt-3">Copyright ©2024 All rights reserved </p> 
+            </div> 
+        </footer>
+</body>
+</html>
