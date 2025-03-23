@@ -1,0 +1,255 @@
+*
+{
+  scroll-behavior: smooth;
+}
+#header_menu
+{
+  background-color: rgb(210, 237, 32);
+}
+.navbar-brand img
+{
+    width: 100px;
+    height: 30px;
+}
+.cart-up span
+{
+  background-color: red;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    color: red; /* Use !important to ensure it overrides other styles */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Adjusting icon color using filter */
+}
+#Carou-first
+{
+  max-width: 500px;
+  height:550px;
+  margin: auto;
+}
+#Carou-second
+{
+  max-width: 450px;
+  height:550px;
+  margin: auto;
+}
+#Carou-third
+{
+  max-width: 405px;
+  height:550px;
+  margin: auto;
+}
+.card
+{
+    width: 320px;
+    padding: 15px;
+    margin: auto;
+}
+.card img
+{
+    width:320px;
+    height: 400px;
+}
+.new_product
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(80%,50%);
+
+}
+.product_img1 img
+{
+    height: 410px;
+}
+.product_img2 img
+{
+    height: 440px;
+}
+.text-white 
+{
+    background:linear-gradient(to left,skyblue,burlywood);
+}
+.border-top
+{
+    background: linear-gradient(to right,orange,pink);
+    padding-bottom:5px;
+}
+.footer_title img
+{
+    background-color: white;
+}
+.backtop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Initially hide the button */
+  cursor: pointer;
+}
+  .img1
+  {
+    height: 295px;
+  }
+  .img2
+  {
+    height: 295px;
+  }
+  .img3
+  {
+    height: 295px;
+  }
+  .border img
+  {
+    height: 400px;
+  }
+  .Saree_img img
+  {
+    height: 450px;
+  }
+  .short_img img
+  {
+    height: 450px;
+  }
+  .productw_img img
+  {
+    height: 470px;
+  }
+  .producte_img img
+  {
+    height: 470px;
+  }
+  .bg_checkout_1
+  {
+    background: linear-gradient(to right,magenta,dodgerblue);
+    width: 100%;
+  }
+  #about
+  {
+    position:relative;
+    width: 100%;
+    z-index: -1;
+    margin-top: -160px;
+  }
+ 
+  .section_title h1
+  {
+    padding: -30px;
+  }
+
+  @media only screen and (max-width: 990px) 
+  {
+    .section_title h1
+    {
+        padding:38px;
+    }
+  }
+  #our_image img
+  {
+    margin-top: 65px;
+  }
+  .about_text strong
+  {
+    color: crimson;
+  }
+  #test
+  {
+    width: 200px;
+    height: 200px;
+  }
+  #LAst
+  {
+    width: 200px;
+    height: 200px;
+  }
+  #Write
+  {
+    color: brown;
+  }
+  #Dest
+  {
+    color:azure;
+  }
+  .yellow-text
+  {
+    color: yellow;
+  }
+  #Sec
+  {
+    color:fuchsia;
+  }
+  #Sec1
+  {
+    color: goldenrod;
+  }
+  #thir
+  {
+    color:orange;
+  }
+  #thir1
+  {
+    color: aliceblue;
+  }
+  #for
+  {
+    color:springgreen;
+  }
+  #for1
+  {
+    color:lightblue;
+  }
+  #footer
+  {
+    background-color:lawngreen;
+  }
+  #fb
+  {
+    margin-top: -70px;
+    text-align: center;
+  }
+  .icon-link
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  color:black;
+  font-size: 27px;
+  transition: transform 0.3s ease;
+}
+.icon-link:hover
+{
+    transform: scale(1.1);
+    color:greenyellow;
+    text-decoration: none;
+}
+#form button
+{
+  background: linear-gradient(to right,purple,orange);
+}
+#form button:hover
+{
+  background: linear-gradient(to left,purple,orange); 
+}
+#Price
+{
+  font-size: larger;
+  font-weight: bold;
+}
+.error
+{
+  color: red;
+  font-size:x-small;
+}
+input[type="range"] {
+  accent-color:rgb(89, 89, 216); /* Set the color for the track and thumb */
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Optional: Set a border color for the button */
+.custom-toggler.navbar-toggler {
+  border-color: black;
+}
